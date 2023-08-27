@@ -1,0 +1,58 @@
+.big-photo,
+.small-photo {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.big-photo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    height: 300px;
+}
+
+.small-photo {
+    height: 150px;
+}
+
+.photo-grid .big-photo:hover,
+.photo-grid .small-photo:hover {
+    filter: brightness(0.5);
+}
+
+.photo-grid .big-photo img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.photo-grid .small-photo img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.post img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.cool-post-img {
+    width: 100%;
+    max-width: calc(100% - 20px);
+    margin-right: 20px;
+}
+
+.cool-post-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 300px;
+}

@@ -1,0 +1,150 @@
+@import "images.css";
+@import "layout.css";
+@import "theme.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.post h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.gray-box .author {
+    padding-top: 30px;
+    font-style: italic;
+}
+
+#facebook-icon {
+    display: inline-block;
+    background-color: #3B5998;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#linkedin-icon {
+    display: inline-block;
+    background-color: #007bb5;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.social-icons li {
+    width: 50%;
+    text-align: center;
+}
+
+.subscribe.button {
+    display: block;
+    width: 100%;
+    background-color: #3B5998;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.post {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.post-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.post-image img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.post-caption {
+    margin: 0;
+    flex: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
